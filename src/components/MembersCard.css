@@ -1,0 +1,42 @@
+.add-member-form {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 24px;
+}
+
+.members-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.member-chip {
+    padding: 6px 14px;
+    border-radius: var(--radius-pill);
+    background: rgba(59, 130, 246, 0.1);
+    color: var(--accent-color);
+    font-weight: 500;
+    font-size: 0.875rem;
+    border: 1px solid rgba(59, 130, 246, 0.2);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.delete-chip-btn {
+    padding: 0;
+    margin: 0;
+    color: var(--accent-color);
+    opacity: 0.6;
+    font-size: 1.1rem;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.delete-chip-btn:hover {
+    opacity: 1;
+    color: #ef4444;
+    transform: scale(1.1);
+}

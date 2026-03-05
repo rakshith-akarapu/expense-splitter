@@ -1,0 +1,33 @@
+.summary-card {
+    text-align: center;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(219, 234, 254, 0.7) 100%);
+    box-shadow: var(--shadow-soft), 0 20px 40px -10px rgba(59, 130, 246, 0.2), 0 10px 20px -5px rgba(59, 130, 246, 0.1);
+}
+
+.summary-card:hover {
+    box-shadow: var(--shadow-hover), 0 25px 50px -12px rgba(59, 130, 246, 0.25), 0 15px 25px -5px rgba(59, 130, 246, 0.15);
+}
+
+.total-amount {
+    font-size: 4rem;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    color: var(--accent-hover);
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 4px;
+    margin-bottom: 8px;
+}
+
+.currency {
+    font-size: 1.5rem;
+    margin-top: 12px;
+    color: var(--accent-color);
+    opacity: 0.8;
+}
+
+.summary-subtitle {
+    color: var(--text-secondary);
+    font-size: 0.9375rem;
+}
