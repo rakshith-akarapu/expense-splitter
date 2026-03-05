@@ -2,6 +2,9 @@
 
 A React-based web application that helps groups split expenses easily and calculate the final settlement between members.
 
+## 🚀 Live Demo
+https://easy-split-vert.vercel.app
+
 ## Features
 - Add group members
 - Add shared expenses
